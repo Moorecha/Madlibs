@@ -1,0 +1,12 @@
+body {
+  background-color: lavender;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Inconsolata', monospace;
+
+  }
+  h1{
+  outline-style: dotted;
+ font-family: 'Tomorrow', sans-serif;
+
+  }

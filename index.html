@@ -1,0 +1,42 @@
+<!-- 
+  FIRST:   Play one of the madlibs from this site: https://www.madtakes.com/index.php
+
+  SECOND: Create your own madlib site. You can create your own story or use one from this site.
+
+  REQUIREMENTS: The page must be STYLED!! Make it colorful, pretty, full of CSS and HTML goodness on top of wonderful JS.  Show off all you can do!
+
+  -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Tomorrow&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <h1>Mad Lib generator</h1>
+   <form id = "form">
+      <span>Verb ending in "ING" :</span>
+      <input type="text" name="ingverb" id = "ingverb" >
+      <br>
+      <span>Noun :</span>
+      <input type="text" name="noun" id = "noun">
+      <br>
+       <span>Part of the body :</span>
+      <input type="text" name="body" id ="body" >
+      <br> <span>Verb :</span>
+      <input type="text" name="verb" id="verb">
+      <br> <span>Animal:</span>
+      <input type="text" name="animal" id="animal" >
+      <br> <span>Verb ending in "ED" :</span>
+      <input type="text" name="edverb" id= "edverb" >
+      <br><br>
+      <input type="button" value="Create maD lIB"onclick="done()" id= "done()">
+    </form> 
+    <script src="script.js"></script>
+  </body>
+</html>
